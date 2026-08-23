@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Datos
+datos_entrada/
+datos_salida/
+*.csv
+*.xlsx
+*.xls
+resultados/
+excepciones/
+metricas/
+
+# Archivos temporales
+*.tmp
+*.log
+*.temp
+
+# Configuración local (rutas sensibles)
+config_local.py
+config.local.py
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Archivos de sistema
+.env
+.env.local
+*.pid
