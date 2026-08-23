@@ -18,8 +18,8 @@ El pipeline se articula en **2 fases secuenciales** implementadas en Python:
 
 | Fase | Entrada | Proceso | Salida |
 |------|---------|---------|--------|
-| **F1 — Consolidación** | Reportes mensuales + catálogo de servicios | Unificar y enriquecer con clasificación | CSV consolidado (200K+ registros) |
-| **F2 — Emparejamiento** | CSV consolidado + registro de referencias | Cruce inteligente + métricas | Resultados + excepciones + KPIs (200K+ registros) |
+| **F1_Consolidación** | Reportes mensuales + catálogo de servicios | Unificar y enriquecer con clasificación | CSV consolidado (200K+ registros) |
+| **F2_Emparejamiento** | CSV consolidado + registro de referencias | Cruce inteligente + métricas | Resultados + excepciones + KPIs (200K+ registros) |
 
 ---
 
@@ -269,7 +269,7 @@ Cada ejecución genera un **reporte de profiling** mostrando:
 
 ```
 ═══════════════════════════════════════════════════════════
-PROFILING — v1.0
+PROFILING v1.0
 ═══════════════════════════════════════════════════════════
 
 Etapa: CARGA_ORDENES
